@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0470" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2020-11-09T22:57:14" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="spring-boot" timestamp="2020-11-09T22:57:14" tests="2" file="/home/milena/Desktop/proyectos/spring-boot-it/spring-boot_test.js" time="0.0470" failures="2">
+    <testcase name="spring-boot: Verify a successful call" time="0.0410" classname="Verify a successful call">
+      <failure message="connect ECONNREFUSED 127.0.0.1:8080" type="Error"><![CDATA[Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1139:16)]]></failure>
+    </testcase>
+    <testcase name="spring-boot: Verify return value" time="0.0060" classname="Verify return value">
+      <failure message="connect ECONNREFUSED 127.0.0.1:8080" type="Error"><![CDATA[Error: connect ECONNREFUSED 127.0.0.1:8080
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1139:16)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
